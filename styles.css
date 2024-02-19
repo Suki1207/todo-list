@@ -1,0 +1,100 @@
+* {
+  background-color: rgb(27, 27, 27);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 40px 0 0 40px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 30px;
+  margin: 30px 0;
+}
+
+.input-task,
+.input-date {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin: 0 10px 30px 0;
+}
+
+.input-date:hover {
+  cursor: pointer;
+}
+
+.btn-add {
+  /* background-color: rgb(177, 92, 92); */
+  background-color: rgb(48, 134, 48);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid rgb(191, 191, 191);
+  border-radius: 10px;
+  padding: 9px 15px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.btn-add:hover {
+  /* background-color: rgb(157, 72, 72); */
+  background-color: rgb(35, 98, 35);
+  border: 1px solid rgb(191, 191, 191);
+}
+
+.btn-add:active {
+  /* background-color: rgb(137, 52, 52); */
+  background-color: rgb(22, 59, 22);
+  border: 1px solid rgb(191, 191, 191);
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 50px)); */
+  grid-template-columns: 220px 85px;
+  grid-template-rows: auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.task {
+  background: #fff;
+  color: rgb(27, 27, 27);
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 0;
+}
+
+.btn-delete {
+  height: 45px;
+  background-color: rgb(177, 92, 92);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid rgb(191, 191, 191);
+  border-radius: 10px;
+  padding: 9px 12px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: rgb(157, 72, 72);
+  border: 1px solid rgb(191, 191, 191);
+}
+
+.btn-delete:active {
+  background-color: rgb(100, 48, 48);
+  border: 1px solid rgb(191, 191, 191);
+}
